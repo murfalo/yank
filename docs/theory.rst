@@ -37,7 +37,7 @@ Each thermodynamic state.
 
 Directly simulating a binding/unbinding process is nearly computationally impossible, so YANK instead uses a computationally
 efficient thermodynamic cycle to compute |DG|. Thermodynamics allow this since free energy is a state function, meaning the
-free energy will be identical no mater what path is taken. However, even though free energy does not change, the are only
+free energy will be identical no matter what path is taken. However, even though free energy does not change, the are only
 making an estimate, so there will be error associated with our estimate, and that error **does** depend on the path.
 
 
